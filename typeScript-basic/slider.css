@@ -1,0 +1,38 @@
+.responsiveImg {
+    width: 99%;
+    height: auto;
+}
+
+.dot {
+    margin: 10px;
+    outline: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #f2f4f6;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.highlightDot {
+    background-color: #bbb;
+}
+
+.pausebtn {
+    margin: 0px 10px 0px 0px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.centerdiv {
+    text-align: center;
+}
+
+.arrow {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+body {
+    margin:0px;
+}

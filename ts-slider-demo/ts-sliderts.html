@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cyberpunk2077</title>
+    <script src="https://kit.fontawesome.com/9b4e69244d.js"></script>
+    <link rel="stylesheet" href="TS-slider.css">
+</head>
+<body>
+<div class="centerdiv">
+    <!--    imgs are here-->
+    <img src="" alt="" id="slider" class="mainImgs">
+    <button class="prev" onclick="moveImgs('pres')"><i class="fas fa-chevron-left"></i></button>
+    <button class="next" onclick="moveImgs('after')"><i class="fas fa-chevron-right"></i></button>
+</div>
+<div id="indicator" class="centerdiv">
+    <button id="leftarrow" class="arrow" onclick="moveImgs('pres')"><i class="fas fa-arrow-left"></i></button>
+    <button onclick="pauseOrPlaySlider2()" id="control" class="pausebtn"><i class="fas fa-pause"></i></button>
+    <button id="rightarrow" class="arrow" onclick="moveImgs('after')"><i class="fas fa-arrow-right"></i></button>
+</div>
+
+</body>
+<script src="TS-slider.js"></script>
+</html>
